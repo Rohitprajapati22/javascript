@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var a = (parseInt(prompt("enter the number of A :")))
+        var b = (parseInt(prompt("enter the number of B :")))
+        var c = (parseInt(prompt("enter the number of C :")))
+        var d = (parseInt(prompt("enter the number of D :")))
+
+        if(a>b){
+            if(a>c){
+                if(a>d){
+                    console.log("A number is max");
+                }
+                else{
+                    console.log("D numbe is max");
+                }
+            }
+            else{
+                console.log("C numbe is max");
+            }
+        }
+        else{
+           if(b>c){
+                if(b>d){
+                    console.log("B numbe is max");
+                }
+                else{
+                    console.log("D numbe is max");
+                }
+           }
+           else{
+                if(c>d){
+                    console.log("C numbe is max");
+                }
+                else{
+                    console.log("D numbe is max");
+                }
+           }
+        }
+    </script>
+    
+</body>
+</html>
